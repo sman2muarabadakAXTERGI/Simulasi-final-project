@@ -1,0 +1,108 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 33px;
+      /*identical to box height */
+      color: #7B855F
+}
+
+h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: left;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+/*Section Rekomendasi*/
+.card {
+ height: 440px;
+  border: none;
+}
+.img-carousel{
+  height: 250px;
+  object-fit: cover;
+}
+:root {
+  --clr: #D7CEAF;
+}
+
+body {}
+
+.main-layout {
+  background-color: #fff;
+  width: 476px;
+  margin: 0 auto;
+}
+
+.navigation {
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.navigation ul {
+  display: flex;
+  width: 350px;
+}
+
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 70px;
+  height: 70px;
+  z-index: 1;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
+
+.navigation ul li a .icon {}
+main {
+    max-width: 476px;
+    background-color:#D7CEAF;
+    height: 147vh;
+    margin: 0 auto;
+  }
+  /* Search Section */
+
+  #search {
+    height: 178px;
+
+  }
+
+#search h2{
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #D7CEAF;
+}
+main {
+  max-width: 476px;
+  background-color:#D7CEAF;
+  height: 150vh;
+  margin: 0 auto;
+}
+
