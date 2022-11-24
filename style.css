@@ -20,68 +20,41 @@ h5 {
 }
 
 /*Section Rekomendasi*/
-.card {
- height: 440px;
-  border: none;
-}
 .img-carousel{
-  height: 250px;
+   height: 80vh; 
   object-fit: cover;
 }
 :root {
   --clr: #D7CEAF;
 }
 
-body {}
+#rekomendasi {
+  margin: 45px 0;
+}
 
 .main-layout {
   background-color: #fff;
-  width: 476px;
-  margin: 0 auto;
 }
 
-.navigation {
-  position: relative;
-  width: 400px;
-  height: 70px;
-  background-color: antiquewhite;
+.card {
+  border: none;
+  display: block;
+  text-decoration: none;
+  color: initial
+}
+
+.card-img {
+  background: #91987C;
+  border-radius: 20px;
+  padding: 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 10px;
-}
-
-.navigation ul {
-  display: flex;
-  width: 350px;
-}
-
-.navigation ul li {
-  position: relative;
-  list-style: none;
-  width: 70px;
-  height: 70px;
-  z-index: 1;
-}
-
-.navigation ul li a {
-  position: relative;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  font-weight: 500;
 }
 
-.navigation ul li a .icon {}
-main {
-    max-width: 476px;
-    background-color:#D7CEAF;
-    height: 147vh;
-    margin: 0 auto;
-  }
+.card-body h2 {
+  
+}
   /* Search Section */
 
   #search {
