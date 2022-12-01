@@ -2,21 +2,11 @@
   font-family: 'Nunito', sans-serif;
 }
 
-h1 {
-  font-style: Bold;
+.title-navbar {
+  font-weight: Bold;
   font-size: 24px;
   line-height: 33px;
-      /*identical to box height */
-      color: #7B855F
-}
-
-h5 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 48px;
-  text-align: left;
-  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+  color: #7B855F
 }
 
 /*Section Rekomendasi*/
@@ -46,14 +36,11 @@ h5 {
 .card-img {
   background: #91987C;
   border-radius: 20px;
-  padding: 20px;
+  padding: 15px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.card-body h2 {
-  
 }
   /* Search Section */
 
@@ -77,5 +64,54 @@ main {
   background-color:#D7CEAF;
   height: 150vh;
   margin: 0 auto;
+}
+
+.nav-berita {
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.nav-berita .nav-link {
+  padding: 10px 30px;
+  border-radius: 36px;
+  color: #444;
+  background-color: transparent;
+}
+
+.nav-berita .nav-link.active {
+  color: #fff;
+  background-color: #91987C;
+}
+
+.bi-heart {
+  color: #FF0B0B;
+}
+
+.bi-chat {
+  color: #347BE5;
+}
+
+.card-pemastian {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #ddd;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accuracy {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.accuracy.good {
+  color: #0ef902;
+}
+
+.accuracy.bad {
+  color:#c82d2d;
 }
 
