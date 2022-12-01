@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- My Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <title>Berita - AXTERGI</title>
+</head>
+
+<body>
+  <div class="main-layout">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <h1><a class="navbar-brand title-navbar" href="./">AXTERGI</a></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./">Beranda</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="akun.html">Akun</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bot-pemastian.html">Bot Pemastian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Berita</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="berita">
+      <div class="container">
+        <h2>Berita</h2>
+        <ul class="nav nav-tabs nav-pills nav-berita" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="hot-tab" data-bs-toggle="tab" data-bs-target="#hot-tab-pane" type="button" role="tab" aria-controls="hot-tab-pane" aria-selected="true">Hot</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="olahraga-tab" data-bs-toggle="tab" data-bs-target="#olahraga-tab-pane" type="button" role="tab" aria-controls="olahraga-tab-pane" aria-selected="false">Olahraga</button>
+          </li>
+        </ul>
+        
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="hot-tab-pane" role="tabpanel" aria-labelledby="hot-tab" tabindex="0">
+            <div class="row">
+              <div class="col-4">
+                <a class="card text-reset d-block card-berita" href="berita-detail7.html">
+                  <img src="img berita 7.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tahun 2026 Kaltim Siap Jadi Tuan Rumah MTQ ke-31 Mengulang Sejarah 50 tahun Silam</h5>
+                    <div class="row justify-content-between">
+                      <div class="col-3">
+                        <div class="btn btn-light btn-like">
+                          <i class="bi bi-heart"></i>
+                          <span>90k</span>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="btn btn-light btn-comment">
+                          <i class="bi bi-chat"></i>
+                          <span>15K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a class="card text-reset d-block card-berita" href="berita-detail8.html">
+                  <img src="img berita 8.jpg" class="card-img-top" alt="..." height="200" width="400">
+                  <div class="card-body">
+                    <h5 class="card-title">Beasiswa Kaltim Tuntas Cair, Penerima Diminta Jangan Hura-Hura</h5>
+                    <div class="row justify-content-between">
+                      <div class="col-3">
+                        <div class="btn btn-light btn-like">
+                          <i class="bi bi-heart"></i>
+                          <span>100k</span>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="btn btn-light btn-comment">
+                          <i class="bi bi-chat"></i>
+                          <span>10K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a class="card text-reset d-block card-berita" href="berita-detail9.html">
+                  <img src="img berita 9.jpg" class="card-img-top" alt="..." height="200" width="400">
+                  <div class="card-body">
+                    <h5 class="card-title">Rekomendasi Destinasi Wajib Kunjung di Kutai Kartanegara, Bukit Bengkirai sampai Pulau Kumala</h5>
+                    <div class="row justify-content-between">
+                      <div class="col-3">
+                        <div class="btn btn-light btn-like">
+                          <i class="bi bi-heart"></i>
+                          <span>20k</span>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="btn btn-light btn-comment">
+                          <i class="bi bi-chat"></i>
+                          <span>100</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="olahraga-tab-pane" role="tabpanel" aria-labelledby="olahraga-tab" tabindex="0">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="hot-tab-pane" role="tabpanel" aria-labelledby="hot-tab" tabindex="0">
+                <div class="row">
+                  <div class="col-4">
+                    <a class="card text-reset d-block card-berita" href="berita-detail10.html">
+                      <img src="img berita 10.jpg" class="card-img-top" alt="..." height="200" width="400">
+                      <div class="card-body">
+                        <h5 class="card-title">Cabor Atletik Samarinda Raih 5 Emas, Targetkan Meraih 10 Emas Ajang Porprov VII Kaltim 2022</h5>
+                        <div class="row justify-content-between">
+                          <div class="col-3">
+                            <div class="btn btn-light btn-like">
+                              <i class="bi bi-heart"></i>
+                              <span>87K</span>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn btn-light btn-comment">
+                              <i class="bi bi-chat"></i>
+                              <span>32K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="card text-reset d-block card-berita" href="berita-detail11.html">
+                      <img src="img berita 11.jpg" class="card-img-top" alt="..." height="200" width="400">
+                      <div class="card-body">
+                        <h5 class="card-title">Kabaddi Kukar Sumbang Banyak Juara di Porprov Kaltim, Optimis Juara Umum</h5>
+                        <div class="row justify-content-between">
+                          <div class="col-3">
+                            <div class="btn btn-light btn-like">
+                              <i class="bi bi-heart"></i>
+                              <span>94K</span>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn btn-light btn-comment">
+                              <i class="bi bi-chat"></i>
+                              <span>70K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="card text-reset d-block card-berita" href="berita-detail12.html">
+                      <img src="img berita 12.jpg" class="card-img-top" alt="..." height="200" width="400">
+                      <div class="card-body">
+                        <h5 class="card-title">Bupati Lepas Keberangkatan 1.254 Atlet Kontingen Kukar Menuju Porprov Ke-VII Kaltim</h5>
+                        <div class="row justify-content-between">
+                          <div class="col-3">
+                            <div class="btn btn-light btn-like">
+                              <i class="bi bi-heart"></i>
+                              <span>65K</span>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn btn-light btn-comment">
+                              <i class="bi bi-chat"></i>
+                              <span>34K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+        
+        <div id="carouselBerita" class="carousel slide-berita" data-bs-ride="carousel">
+          
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

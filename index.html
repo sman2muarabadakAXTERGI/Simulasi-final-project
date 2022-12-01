@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- My Style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <title>Beranda - AXTERGI</title>
+</head>
+
+<body>
+  <div class="main-layout">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <h1><a class="navbar-brand title-navbar" href="./">AXTERGI</a></h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./">Beranda</a>
+            </li> -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="akun.html">Akun</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bot-pemastian.html">Bot Pemastian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="berita.html">Berita</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <div class="login-center ">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="berita 1.jpg" class="d-block w-100 img-carousel" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+            <div class="carousel-item">
+              <img src="Berita 2.jpg" class="d-block w-100 img-carousel" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Berita 3.jpg" class="d-block w-100 img-carousel" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="rekomendasi">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-3 text-center">
+            <a href="berita.html" class="card">
+              <div class="card-img">
+                <img src="Berita.svg" class="img-fluid" alt="">
+              </div>
+              <div class="card-body">
+                <h2>Berita</h2>
+              </div>
+            </a>
+          </div>
+          <div class="col-3 text-center">
+            <a href="bot-pemastian.html" class="card">
+              <div class="card-img">
+                <img src="Bot pemastian.svg" class="img-fluid" alt="">
+              </div>
+              <div class="card-body" style="color:black ">
+                <h2>Bot Pemastian</h2>
+              </div>
+            </a>
+          </div>
+          <div class="col-3 text-center">
+            <a href="hiburan.html" class="card">
+              <div class="card-img">
+                <img src="Hiburan.svg" class="img-fluid" alt="">
+              </div>
+              <div class="card-body" style="color:black ">
+                <h2>Hiburan</h2>
+              </div>
+            </a>
+          </div>
+          <div class="col-3 text-center">
+            <a href="perpustakaaan.html" class="card">
+              <div class="card-img">
+                <img src="Perpustakaan.svg" class="img-fluid" alt="">
+              </div>
+              <div class="card-body" style="color:black ">
+                <h2>Perpustakaan</h2>
+              </div>
+            </a>
+          </div>
+          </div>
+        </div>
+    </section>
+    <section id="berita">
+      <div class="container">
+        <h2>Berita</h2>
+        <ul class="nav nav-tabs nav-pills nav-berita" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="hot-tab" data-bs-toggle="tab" data-bs-target="#hot-tab-pane" type="button" role="tab" aria-controls="hot-tab-pane" aria-selected="true">Hot</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="olahraga-tab" data-bs-toggle="tab" data-bs-target="#olahraga-tab-pane" type="button" role="tab" aria-controls="olahraga-tab-pane" aria-selected="false">Olahraga</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="hot-tab-pane" role="tabpanel" aria-labelledby="hot-tab" tabindex="0">
+            <div class="row">
+              <div class="col-4">
+                <a class="card text-reset d-block card-berita" href="berita-detail.html">
+                  <img src="img berita.jpeg" class="card-img-top" alt="..." height="200" width="400">
+                  <div class="card-body">
+                    <h5 class="card-title">Top Skor Piala Dunia 2022: Bruno Fernandes Salip Ronaldo</h5>
+                    <div class="row justify-content-between">
+                      <div class="col-3">
+                        <div class="btn btn-light btn-like">
+                          <i class="bi bi-heart"></i>
+                          <span>3M</span>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="btn btn-light btn-comment">
+                          <i class="bi bi-chat"></i>
+                          <span>1,5M </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a class="card text-reset d-block card-berita" href="berita-detail2.html">
+                  <img src="img berita 2.jpeg" class="card-img-top" alt="..." height="200" width="400">
+                  <div class="card-body">
+                    <h5 class="card-title">KTT G20 Tunjukkan Kepemimpinan Indonesia di Mata Dunia</h5>
+                    <div class="row justify-content-between">
+                      <div class="col-3">
+                        <div class="btn btn-light btn-like">
+                          <i class="bi bi-heart"></i>
+                          <span>2.5M</span>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="btn btn-light btn-comment">
+                          <i class="bi bi-chat"></i>
+                          <span>1M</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a class="card text-reset d-block card-berita" href="berita-detail3.html">
+                  <img src="img berita 6.jpg" class="card-img-top" alt="..." height="200" width="400">
+                  <div class="card-body">
+                    <h5 class="card-title">Gempa Cianjur: Total Korban Meninggal 321 Orang, 11 Hilang</h5>
+                    <div class="row justify-content-between">
+                      <div class="col-3">
+                        <div class="btn btn-light btn-like">
+                          <i class="bi bi-heart"></i>
+                          <span>2M</span>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="btn btn-light btn-comment">
+                          <i class="bi bi-chat"></i>
+                          <span>87K</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="olahraga-tab-pane" role="tabpanel" aria-labelledby="olahraga-tab" tabindex="0">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="hot-tab-pane" role="tabpanel" aria-labelledby="hot-tab" tabindex="0">
+                <div class="row">
+                  <div class="col-4">
+                    <a class="card text-reset d-block card-berita" href="berita-detail4.html">
+                      <img src="img berita 3.jpeg" class="card-img-top" alt="..." height="200" width="400">
+                      <div class="card-body">
+                        <h5 class="card-title">Kapan Liga 1 Lanjut? Ini Jawaban PT LIB</h5>
+                        <div class="row justify-content-between">
+                          <div class="col-3">
+                            <div class="btn btn-light btn-like">
+                              <i class="bi bi-heart"></i>
+                              <span>1M</span>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn btn-light btn-comment">
+                              <i class="bi bi-chat"></i>
+                              <span>92K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="card text-reset d-block card-berita" href="berita-detail5.html">
+                      <img src="img berita 4.jpg" class="card-img-top" alt="..." height="200" width="400">
+                      <div class="card-body">
+                        <h5 class="card-title">Perwakilan Muara Badak Untuk Tim Hockey pada Porprov Kaltim</h5>
+                        <div class="row justify-content-between">
+                          <div class="col-3">
+                            <div class="btn btn-light btn-like">
+                              <i class="bi bi-heart"></i>
+                              <span>1.5M</span>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn btn-light btn-comment">
+                              <i class="bi bi-chat"></i>
+                              <span>50K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-4">
+                    <a class="card text-reset d-block card-berita" href="berita-detail6.html">
+                      <img src="img berita 5.jpeg" class="card-img-top" alt="..." height="200" width="400">
+                      <div class="card-body">
+                        <h5 class="card-title">Daftar 6 Wakil Indonesia di BWF World Tour Finals 2022</h5>
+                        <div class="row justify-content-between">
+                          <div class="col-3">
+                            <div class="btn btn-light btn-like">
+                              <i class="bi bi-heart"></i>
+                              <span>98K</span>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn btn-light btn-comment">
+                              <i class="bi bi-chat"></i>
+                              <span>20K</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <div id="carouselBerita" class="carousel slide-berita" data-bs-ride="carousel">
+          
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
